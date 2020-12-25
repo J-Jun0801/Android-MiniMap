@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.jaredrummler:twodscrollview:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09059caa0b2219bb4d78898436ca6b1b/jetified-twodscrollview-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09059caa0b2219bb4d78898436ca6b1b/jetified-twodscrollview-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/09059caa0b2219bb4d78898436ca6b1b/jetified-twodscrollview-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jaredrummler/twodscrollview/1.0.1/f2f5cb17298f72618e6de117199514831d718c52/twodscrollview-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jaredrummler/twodscrollview/1.0.1/2e40d50a6b6f8f6de2eb7c490f8e9e1b9096514/twodscrollview-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
