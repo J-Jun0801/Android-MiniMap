@@ -85,8 +85,8 @@ class MainActivity : AppCompatActivity() {
                         gridLayout!!.width / MINMAP_RATE, gridLayout!!.height / MINMAP_RATE)
                 params.addRule(RelativeLayout.ALIGN_PARENT_RIGHT, 1)
                 params.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM, 1)
-                params.rightMargin = Math.round(Util.dpToPixel(this@MainActivity, 10f))
-                params.bottomMargin = Math.round(Util.dpToPixel(this@MainActivity, 10f))
+                params.rightMargin = Math.round(Util.dpToPixel(this@MainActivity, 10f)).toInt()
+                params.bottomMargin = Math.round(Util.dpToPixel(this@MainActivity, 10f)).toInt()
                 miniMapView?.layoutParams = params
                 Log.e("TAG ", "============== v = " + scrollView?.getHeight())
                 right = (Util.getScreenWidth(this@MainActivity) / MINMAP_RATE).toDouble().roundToInt()
