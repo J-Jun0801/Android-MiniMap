@@ -46,7 +46,6 @@ public class MiniMapView extends View {
         paint.setColor(Color.RED);
         paint.setStyle(Paint.Style.STROKE);
 
-        // Rect에 Yellow 색을 칠해 준다.
         canvas.drawRect(rect, paint);
     }
 
