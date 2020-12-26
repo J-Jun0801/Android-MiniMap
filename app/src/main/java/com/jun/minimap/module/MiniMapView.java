@@ -51,7 +51,7 @@ public class MiniMapView extends View {
 
 
     public void setBackgroundBitmap(Bitmap bitmap) {
-        Drawable drawable = new BitmapDrawable(bitmap);
+        Drawable drawable = new BitmapDrawable(getResources(), bitmap);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
             setBackground(drawable);
         }
@@ -62,9 +62,9 @@ public class MiniMapView extends View {
 
     }
 
-    public void invalidRect(int left, int top, int right ,int bottom) {
-        this.left =left;
-        this.right =right;
+    public void invalidRect(int left, int top, int right, int bottom) {
+        this.left = left;
+        this.right = right;
         this.top = top;
         this.bottom = bottom;
 
